@@ -1,0 +1,20 @@
+#navigationBar {
+    background-color: rgba(0,0,0,0.5);
+}
+
+#navigationBar .nav a {
+    font: 12px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    line-height: 20px;
+}
+
+#navigationBar .nav a:focus {
+    color: #00009C;
+    text-decoration: none;
+}
+
+#navigationBar .nav a:hover {
+    color: #00009C;
+    text-decoration: none;
+}

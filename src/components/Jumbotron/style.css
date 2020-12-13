@@ -1,0 +1,95 @@
+.header-container {
+  height: 100vh;
+  background-color: #100c08;
+}
+
+.profile-pic {
+  height: 40vmin;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 1vh solid #232D3622;
+}
+
+.header-text {
+  color: #F5F5F5;
+  font-family: 'Open Sans Condensed';
+  text-shadow: 3px 3px #00009C,
+  -2px 1px #00009C;
+}
+
+.name {
+  font-size: 80px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.text {
+  line-height: 2em;
+  font-size: 35px;
+}
+
+.social-links {
+  color: white;
+}
+
+.social-links:hover {
+  color: #00009C;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .name {
+    font-size: 75px;
+  }
+  
+  .title {
+    font-size: 35px;
+  }
+
+  .text {
+    font-size: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  .name {
+    font-size: 60px;
+  }
+  
+  .title {
+    font-size: 30px;
+  }
+
+  .text {
+    font-size: 25px;
+  }
+
+}
+
+@media only screen and (max-width: 575px) {
+
+  .profile-pic {
+    margin-top: 30px;
+  }
+
+}
+
+@media screen and (max-width: 479px) {
+
+  .name {
+    font-size: 45px;
+  }
+  
+  .title {
+    font-size: 25px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+  
+}
