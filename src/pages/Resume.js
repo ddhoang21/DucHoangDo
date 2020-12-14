@@ -1,21 +1,11 @@
 import React from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
-import Skills from '../components/List';
+import Skills from '../components/ResumeJumbotron';
 
 const Resume = () => {
     return (
-        <div>
-            <Container>
-                <Row>
-                    <Col xs={6}>
-                        <h1>Resume</h1>
-                    </Col>
-                    <Col xs={6}>
-                        <Skills />
-                    </Col>
-                </Row>
-            </Container>
-        </div>
+        <React.Fragment>
+            <Skills />
+        </React.Fragment>
     )
 }
 

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './style.css';
 
 const NavigationBar = () => {
@@ -11,10 +11,22 @@ const NavigationBar = () => {
             <Navbar.Toggle aria-controls='responsive-navbar-nav' onClick={() => setExpanded(expanded ? false : 'expanded')}/>
                 <Navbar.Collapse id='responsive-navbar-nav'>
                     <Nav className='nav ml-auto mr-auto'>
-                        <Nav.Link as={Link} to='/' onClick={() => setExpanded(false)}>Home</Nav.Link>
-                        <Nav.Link as={Link} to='/about' onClick={() => setExpanded(false)}>About</Nav.Link>                           
-                        <Nav.Link as={Link} to='/resume' onClick={() => setExpanded(false)}>Resume</Nav.Link>               
-                        <Nav.Link as={Link} to='/portfolio' onClick={() => setExpanded(false)}>Portfolio</Nav.Link>              
+                        <Nav.Link as={NavLink} exact to='/' activeStyle={{
+                            fontWeight: "800",
+                            color: "#00009C"
+                        }} onClick={() => setExpanded(false)}>Home</Nav.Link>
+                        <Nav.Link as={NavLink} to='/about' activeStyle={{
+                            fontWeight: "800",
+                            color: "#00009C"
+                        }} onClick={() => setExpanded(false)}>About</Nav.Link>                           
+                        <Nav.Link as={NavLink} to='/resume' activeStyle={{
+                            fontWeight: "800",
+                            color: "#00009C"
+                        }} onClick={() => setExpanded(false)}>Resume</Nav.Link>               
+                        <Nav.Link as={NavLink} to='/portfolio' activeStyle={{
+                            fontWeight: "800",
+                            color: "#00009C"
+                        }} onClick={() => setExpanded(false)}>Portfolio</Nav.Link>              
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

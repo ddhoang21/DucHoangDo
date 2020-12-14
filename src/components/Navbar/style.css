@@ -1,5 +1,5 @@
 #navigationBar {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.8);
 }
 
 #navigationBar .nav a {
@@ -9,12 +9,7 @@
     line-height: 20px;
 }
 
-#navigationBar .nav a:focus {
-    color: #00009C;
-    text-decoration: none;
-}
-
 #navigationBar .nav a:hover {
-    color: #00009C;
+    color: #F5F5F5;
     text-decoration: none;
 }

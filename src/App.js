@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 import NavigationBar from './components/Navbar';
 import Main from './pages/Main';
@@ -10,7 +11,7 @@ import Portfolio from './pages/Portfolio';
 
 const App = () => {
   return (
-    <React.Fragment>
+    <div className='body'>
       <Router>
         <NavigationBar />
           <Switch>
@@ -20,7 +21,7 @@ const App = () => {
             <Route path='/portfolio' component={Portfolio} />
           </Switch>
       </Router>
-    </React.Fragment>
+    </div>
   )
 }
 

@@ -1,5 +1,5 @@
 .header-container {
-  height: 100vh;
+  height: 95vh;
   background-color: #100c08;
 }
 
@@ -30,13 +30,18 @@
   font-size: 35px;
 }
 
-.social-links {
+.learn-btn {
+  color: #00009C;
+  text-decoration: none;
+}
+
+/* .social-links {
   color: white;
 }
 
 .social-links:hover {
   color: #00009C;
-}
+} */
 
 @media only screen and (max-width: 1024px) {
 

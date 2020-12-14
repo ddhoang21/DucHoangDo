@@ -1,5 +1,6 @@
 import React from 'react';
 import {Jumbotron, Container, Button, Image} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 import Typical from 'react-typical';
 import './style.css';
 import pic from '../../assets/images/me-2.jpg'; 
@@ -28,10 +29,10 @@ const Landing = () => {
                         />
                     </p>
                 </Container>
-                <Container className='button-container text-center mt-3'>
+                {/* <Container className='button-container text-center mt-3'>
                     <Button className='shadow-none' variant='link' href="https://www.linkedin.com/in/duchoangdo/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="3x" className='social-links' active/></Button>
                     <Button className='shadow-none' variant='link' href="https://github.com/ddhoang21" target="_blank"><FontAwesomeIcon icon={faGithub} size="3x" className='social-links'/></Button>
-                </Container>
+                </Container> */}
             </Jumbotron>
         </React.Fragment>
     )
