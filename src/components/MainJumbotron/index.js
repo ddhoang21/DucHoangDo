@@ -5,15 +5,12 @@ import Typical from 'react-typical';
 import './style.css';
 import pic from '../../assets/images/me-2.jpg'; 
 
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 const Landing = () => {
     return (
         <React.Fragment>
             <Jumbotron fluid className='header-container'>
                 <Container className='header-text text-center'>
-                    <Image src={pic} className='profile-pic'/>
+                    <Image src={pic} className='main-pic'/>
                     <h1 className='name'><strong>Duc-Hoang Do</strong></h1>
                     <h5 className='title'><strong>Frontend Web Developer</strong></h5>
                     <p className='text'>
@@ -29,10 +26,9 @@ const Landing = () => {
                         />
                     </p>
                 </Container>
-                {/* <Container className='button-container text-center mt-3'>
-                    <Button className='shadow-none' variant='link' href="https://www.linkedin.com/in/duchoangdo/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="3x" className='social-links' active/></Button>
-                    <Button className='shadow-none' variant='link' href="https://github.com/ddhoang21" target="_blank"><FontAwesomeIcon icon={faGithub} size="3x" className='social-links'/></Button>
-                </Container> */}
+                <Container className='text-center'>
+                    <Button as={Link} className='learn-btn shadow-none' variant='link' to='/about' style={{fontSize: '20px'}}>Learn More {">"}</Button>
+                </Container>
             </Jumbotron>
         </React.Fragment>
     )
