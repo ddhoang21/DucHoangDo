@@ -13,19 +13,19 @@ const NavigationBar = () => {
                     <Nav className='nav ml-auto mr-auto'>
                         <Nav.Link as={NavLink} exact to='/' activeStyle={{
                             fontWeight: "800",
-                            color: "#00009C"
+                            color: "#0000AE"
                         }} onClick={() => setExpanded(false)}>Home</Nav.Link>
                         <Nav.Link as={NavLink} to='/about' activeStyle={{
                             fontWeight: "800",
-                            color: "#00009C"
+                            color: "#0000AE"
                         }} onClick={() => setExpanded(false)}>About</Nav.Link>                           
                         <Nav.Link as={NavLink} to='/resume' activeStyle={{
                             fontWeight: "800",
-                            color: "#00009C"
+                            color: "#0000AE"
                         }} onClick={() => setExpanded(false)}>Resume</Nav.Link>               
                         <Nav.Link as={NavLink} to='/portfolio' activeStyle={{
                             fontWeight: "800",
-                            color: "#00009C"
+                            color: "#0000AE"
                         }} onClick={() => setExpanded(false)}>Portfolio</Nav.Link>              
                     </Nav>
                 </Navbar.Collapse>

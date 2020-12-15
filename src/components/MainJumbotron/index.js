@@ -8,7 +8,7 @@ import pic from '../../assets/images/me-2.jpg';
 const Landing = () => {
     return (
         <React.Fragment>
-            <Jumbotron fluid className='header-container'>
+            <Jumbotron fluid className='main-container'>
                 <Container className='header-text text-center'>
                     <Image src={pic} className='main-pic'/>
                     <h1 className='name'><strong>Duc-Hoang Do</strong></h1>
@@ -27,7 +27,7 @@ const Landing = () => {
                     </p>
                 </Container>
                 <Container className='text-center'>
-                    <Button as={Link} className='learn-btn shadow-none' variant='link' to='/about' style={{fontSize: '20px'}}>Learn More {">"}</Button>
+                    <Button as={Link} className='learn-btn shadow-none' variant='link' to='/about' style={{fontSize: '20px'}}><strong>Learn More {">"}</strong></Button>
                 </Container>
             </Jumbotron>
         </React.Fragment>

@@ -1,5 +1,10 @@
-.about-text {
-    font-size: 20px;
+.about-container {
+    height: 95vh;
+    background-color: #080808;
+    margin-top: 75px;
+}
+
+.about-section {
     color: #F5F5F5;
 }
 
@@ -10,14 +15,32 @@
 }
 
 .contact-info {
-    color: #F5F5F5;
+    color: #DCDCDC;
+    font-size: 17px;
 }
 
 .social-links {
-    color: #F5F5F5;
+    color: #DCDCDC;
     text-decoration: none;
 }
 
 .social-links:hover {
-    color: #00009C;
+    color: #0000AE;
+}
+
+.about-title {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.about-text {
+    font-size: 20px;
+    color: #DCDCDC;
+}
+
+.about-quote {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 200px;
 }

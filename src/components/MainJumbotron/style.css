@@ -1,20 +1,18 @@
-.header-container {
-  height: 95vh;
-  background-color: #100c08;
+.main-container {
+  background-color: #080808;
 }
 
 .main-pic {
   height: 45vmin;
   border-radius: 50%;
   margin-bottom: 20px;
-  border: 1vh solid #232D3622;
 }
 
 .header-text {
   color: #F5F5F5;
   font-family: 'Open Sans Condensed';
-  text-shadow: 3px 3px #00009C,
-  -2px 1px #00009C;
+  text-shadow: 3px 3px #0000AE,
+  -2px 1px #0000AE;
 }
 
 .name {
@@ -31,12 +29,12 @@
 }
 
 .learn-btn {
-  color: #00009C;
+  color: #0000AE;
   text-decoration: none;
 }
 
 .learn-btn:hover {
-  color: #00009C;
+  color: #0000AE;
   text-decoration: none;
 }
 

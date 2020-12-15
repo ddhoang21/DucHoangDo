@@ -11,33 +11,49 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 const Intro = () => {
     return (
         <React.Fragment>
-            <Jumbotron className='header-container'>
-                <Row>
-                    <Col xs={3}>
-                    <FadeIn delay={500}>
-                        <Container className='text-center'>
-                            <Image src={pic} className='about-pic'/>
-                            <Container className='contact-info'>
-                                <p><a style={{color: 'white', textDecoration: 'none'}} href='mailto:dhg.doduchoang@gmail.com'>dhg.doduchoang@gmail.com</a> {' '}<FontAwesomeIcon icon={faEnvelope} size='md'/></p>
-                                <p><a style={{color: 'white', textDecoration: 'none'}} href="tel:+1206-669-9740">+1 (206)-669-9740 </a>{' '}<FontAwesomeIcon icon={faPhone} size='md'/></p>
-                                <p>Seattle, WA {' '}<FontAwesomeIcon icon={faMapMarkerAlt} size='md'/></p>
+                <Jumbotron className='about-container'>
+                    <Row>
+                        <Col xs={3}>
+                            <FadeIn delay ={100} transitionDuration={1000}>
+                            <Container className='text-center'>
+                                <Image src={pic} className='about-pic'/>
+                                <Container className='contact-info'>
+                                    <p><a style={{color: 'white', textDecoration: 'none'}} href='mailto:dhg.doduchoang@gmail.com'>dhg.doduchoang@gmail.com</a> {' '}<FontAwesomeIcon icon={faEnvelope} size='md'/></p>
+                                    <p><a style={{color: 'white', textDecoration: 'none'}} href="tel:+1206-669-9740">+1 (206)-669-9740 </a>{' '}<FontAwesomeIcon icon={faPhone} size='md'/></p>
+                                    <p>Seattle, WA {' '}<FontAwesomeIcon icon={faMapMarkerAlt} size='md'/></p>
+                                </Container>
+                                <Container className='button-container mt-3'>
+                                    <Button className='shadow-none' variant='link' href="https://www.linkedin.com/in/duchoangdo/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" className='social-links' active/></Button>
+                                    <Button className='shadow-none' variant='link' href="https://github.com/ddhoang21" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" className='social-links'/></Button>
+                                </Container>
                             </Container>
-                            <Container className='button-container mt-3'>
-                                <Button className='shadow-none' variant='link' href="https://www.linkedin.com/in/duchoangdo/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" className='social-links' active/></Button>
-                                <Button className='shadow-none' variant='link' href="https://github.com/ddhoang21" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" className='social-links'/></Button>
+                            </FadeIn>
+                        </Col>
+                        <Col xs={9}>
+                            <Container className='about-section'>
+                                <FadeIn delay={100} transitionDuration={1000}>
+                                    <Container>
+                                        <h1 className='about-title'>I make responsive web apps.</h1>
+                                    </Container>
+                                </FadeIn>
+                                <FadeIn delay={300} transitionDuration={1000}>
+                                    <Container>
+                                        <p className='about-text'>Originally from Belgium, I've lived in Seattle for the past decade where it has now become my home.</p>
+                                        <p className='about-text'>I recently attended a Bootcamp which ignited my passion for frontend web development. Since then, I've continuously worked on projects to build up my skills and knowledge in the field.</p>
+                                        <p className='about-text'>My motivation and dedication is what strives me to become better. I will always go above and beyond to achieve my goals.</p>
+                                        <p className='about-text'>I primarily have expertise with React but I'm also proficient with React-Native for iOS and Android mobile applications.</p>
+                                    </Container>
+                                </FadeIn>
+                                {/* <FadeIn delay={700} transitionDuration={1000}>
+                                    <Container className='about-quote'>
+                                        <p>“Live as if you were to die tomorrow. Learn as if you were to live forever.”</p>
+                                        <p>- Mahatma Gandhi</p>
+                                    </Container>
+                                </FadeIn> */}
                             </Container>
-                        </Container>
-                    </FadeIn>
-                    </Col>
-                    <Col xs={9}>
-                    <FadeIn delay={500}>
-                        <Container>
-                            <p className='about-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        </Container>
-                    </FadeIn>
-                    </Col>
-                </Row>
-            </Jumbotron>
+                        </Col>
+                    </Row>
+                </Jumbotron>
         </React.Fragment>
     )
 }
