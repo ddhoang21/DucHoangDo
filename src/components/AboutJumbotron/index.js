@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container, Row, Col, Jumbotron, Image, Button} from 'react-bootstrap';
 import FadeIn from 'react-fade-in';
+import {Link} from 'react-router-dom';
 import './style.css';
 import pic from '../../assets/images/me-2.jpg';
 
@@ -39,17 +40,18 @@ const Intro = () => {
                                 <FadeIn delay={300} transitionDuration={1000}>
                                     <Container>
                                         <p className='about-text'>Originally from Belgium, I've lived in Seattle for the past decade where it has now become my home.</p>
-                                        <p className='about-text'>I recently attended a Bootcamp which ignited my passion for frontend web development. Since then, I've continuously worked on projects to build up my skills and knowledge in the field.</p>
+                                        <p className='about-text'>I attended a Bootcamp which ignited my passion for frontend web development. Since then, I've continuously worked on projects to build up my skills and knowledge in the field.</p>
                                         <p className='about-text'>My motivation and dedication is what strives me to become better. I will always go above and beyond to achieve my goals.</p>
                                         <p className='about-text'>I primarily have expertise with React but I'm also proficient with React-Native for iOS and Android mobile applications.</p>
+                                        <br></br>      
+                                        <p className='about-text'>Interested in working with me?<Button as={Link} className='talk-btn shadow-none' variant='link' to='/resume' style={{fontSize: '20px'}}>Let's talk.</Button></p>
                                     </Container>
                                 </FadeIn>
-                                {/* <FadeIn delay={700} transitionDuration={1000}>
+                                <FadeIn delay={700} transitionDuration={1000}>
                                     <Container className='about-quote'>
-                                        <p>“Live as if you were to die tomorrow. Learn as if you were to live forever.”</p>
-                                        <p>- Mahatma Gandhi</p>
+                                        <p>“Live as if you were to die tomorrow. Learn as if you were to live forever.” {' '}- Mahatma Gandhi</p>
                                     </Container>
-                                </FadeIn> */}
+                                </FadeIn>
                             </Container>
                         </Col>
                     </Row>

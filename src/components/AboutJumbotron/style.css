@@ -1,5 +1,4 @@
 .about-container {
-    height: 95vh;
     background-color: #080808;
     margin-top: 75px;
 }
@@ -40,7 +39,18 @@
 }
 
 .about-quote {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
-    margin-top: 200px;
+    margin-top: 120px;
+}
+
+.talk-btn {
+    color: #0000AE;
+    text-decoration: none;
+    margin-bottom: 3px;
+}
+
+.talk-btn:hover {
+    color: #0000AE;
+    text-decoration: none;
 }
