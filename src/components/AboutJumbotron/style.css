@@ -54,3 +54,13 @@
     color: #0000AE;
     text-decoration: none;
 }
+
+.talk-btn:focus {
+    color: #0000AE;
+    text-decoration: none;
+}
+
+.talk-btn:active {
+    color: #0000AE;
+    text-decoration: none;
+}
