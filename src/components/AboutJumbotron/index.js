@@ -43,14 +43,14 @@ const Intro = () => {
                                     <p className='about-text'>My motivation and dedication is what strives me to create elegant applications for users.</p>
                                     <p className='about-text'>I primarily have expertise with React but I'm also proficient with React-Native for iOS and Android mobile applications.</p>
                                     <br></br>      
-                                    <p className='about-text'>Interested in working with me?<Button className='talk-btn shadow-none' variant='link' href='https://calendly.com/duchoang' target='_blank' style={{fontSize: '20px'}}>Let's chat.</Button></p>
+                                    <p className='about-text'>Interested in working with me?<Button className='talk-btn shadow-none' variant='link' href='https://calendly.com/duchoang' target='_blank' style={{fontSize: '20px'}}>Let's talk.</Button></p>
                                 </Container>
                             </FadeIn>
-                            <FadeIn delay={700} transitionDuration={1000}>
+                            {/* <FadeIn delay={700} transitionDuration={1000}>
                                 <Container className='about-quote'>
                                     <p>“Live as if you were to die tomorrow. Learn as if you were to live forever.” {' '}- Mahatma Gandhi</p>
                                 </Container>
-                            </FadeIn>
+                            </FadeIn> */}
                         </Container>
                     </Col>
                 </Row>

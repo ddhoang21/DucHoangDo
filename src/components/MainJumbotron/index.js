@@ -18,9 +18,9 @@ const Landing = () => {
                             loop={Infinity}
                             // wrapper='b'
                             steps={[
-                                "I'm from Seattle", 2000,
                                 "I'm a coffee lover", 2000,
                                 "I'm a soccer fan", 2000,
+                                "I'm a music enthusiast", 2000,
                                 "I'm an explorer", 2000
                             ]}
                         />

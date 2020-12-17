@@ -1,5 +1,6 @@
 .main-container {
   background-color: #080808;
+  height: 95vh;
 }
 
 .main-pic {
@@ -12,7 +13,7 @@
   color: #F5F5F5;
   font-family: 'Open Sans Condensed';
   text-shadow: 3px 3px #0000AE,
-  -2px 1px #0000AE;
+  2px 2px #0000AE;
 }
 
 .name {

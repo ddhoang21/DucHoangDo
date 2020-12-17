@@ -1,0 +1,35 @@
+.portfolio-container {
+    background-color: #080808;
+}
+
+.portfolio-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: #F5F5F5;
+    margin-top: 50px;
+}
+
+.brand-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.html-icon {
+    color: #E34C26;
+}
+
+.css-icon {
+    color: #264DE4;
+}
+
+.js-icon {
+    color: #F0DB4F;
+}
+
+.react-icon {
+    color: #61DBFB;
+}
+
+.bootstrap-icon {
+    color: #563D7C;
+}

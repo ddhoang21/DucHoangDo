@@ -18,11 +18,7 @@ const NavigationBar = () => {
                         <Nav.Link as={NavLink} to='/about' activeStyle={{
                             fontWeight: "800",
                             color: "#0000AE"
-                        }} onClick={() => setExpanded(false)}>About</Nav.Link>                           
-                        <Nav.Link as={NavLink} to='/resume' activeStyle={{
-                            fontWeight: "800",
-                            color: "#0000AE"
-                        }} onClick={() => setExpanded(false)}>Resume</Nav.Link>               
+                        }} onClick={() => setExpanded(false)}>About</Nav.Link>                                         
                         <Nav.Link as={NavLink} to='/portfolio' activeStyle={{
                             fontWeight: "800",
                             color: "#0000AE"
