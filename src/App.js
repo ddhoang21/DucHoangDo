@@ -8,6 +8,8 @@ import Main from './pages/Main';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 
+import VKBE from './projects/VKBE/Vkbe';
+
 const App = () => {
   return (
     <div className='body'>
@@ -16,7 +18,8 @@ const App = () => {
           <Switch>
             <Route path='/' exact component={Main} />
             <Route path='/about' component={About} />
-            <Route path='/portfolio' component={Portfolio} />
+            <Route path='/portfolio' exact component={Portfolio} />
+            <Route path='/portfolio/vkbe' component={VKBE} />
           </Switch>
       </Router>
     </div>
