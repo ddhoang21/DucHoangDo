@@ -66,12 +66,18 @@
 .vkbe-pic1 {
     position: absolute;
     margin-left: 500px;
+    height: auto;
+    width: 100%;
 }
 
 .vkbe-pic2 {
     position: absolute;
     margin-left: 650px;
     margin-top: 120px;
+    height: auto;
+    width: 100%;
 }
 
 /* background: linear-gradient(rgb(11, 20, 22), rgb(29, 8, 22)); */
+
+/* background: linear-gradient(#000000, #230820); */

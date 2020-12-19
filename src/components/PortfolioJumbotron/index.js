@@ -1,6 +1,5 @@
 import React from 'react';
 import {Container, Col, Row, Jumbotron, Button, Image} from 'react-bootstrap';
-import {Link} from 'react-router-dom';
 import './style.css';
 
 import vkbeLogo from '../../assets/images/VKBE/vkbe-logo.png';
@@ -34,11 +33,11 @@ const Projects = () => {
                                 <Image src={vkbeLogo} width='100px' height='50px' />
                                 <h3 className='vkbe-title ml-3 mt-2'>VKBE Consulting</h3>
                             </Row>
-                            <Button as={Link} className='vkbe-btn shadow-none mt-3' variant='link' to='/portfolio/vkbe' style={{fontSize: '20px'}}>Learn More {">"}</Button>
+                            <Button className='vkbe-btn shadow-none mt-3' variant='link' href='/portfolio/vkbe' style={{fontSize: '20px'}}>Learn More {">"}</Button>
                         </Col>
                         <Col xs={7}>
-                            <Image src={vkbe1} width='75%' height='300px' className='vkbe-pic1'/>
-                            <Image src={vkbe2} width='75%' height='300px' className='vkbe-pic2' />
+                            <Image src={vkbe1} className='vkbe-pic1'/>
+                            <Image src={vkbe2} className='vkbe-pic2' />
                         </Col>
                     </Row>
                 </Container>

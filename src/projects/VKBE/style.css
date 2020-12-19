@@ -1,10 +1,6 @@
 .vkbe-project-jumbotron {
-    background: linear-gradient(#000000, #230820);
+    background: linear-gradient(#000000, #010f1f);
     height: 620px;
-}
-
-.vkbe-project-container {
-    margin-left: 100px;
 }
 
 .back-btn {
@@ -26,14 +22,21 @@
     font-size: 20px;
 }
 
-.vkbe-project-pic1 {
-    position: absolute;
-    margin-left: 500px;
-    margin-top: 100px;
+.gallery-title {
+    color: #F5F5F5;
+    font-size: 55px;
+    font-weight: 700;
 }
 
-.vkbe-project-pic2 {
-    position: absolute;
-    margin-left: 650px;
-    margin-top: 180px;
+.gallery-jumbotron {
+    background-color: #080808;
+}
+
+.gallery-title {
+    margin-left: 100px;
+}
+
+.vkbe-gallery {
+    height: auto;
+    width: 100%;
 }
