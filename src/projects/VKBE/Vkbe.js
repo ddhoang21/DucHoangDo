@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Row, Col, Jumbotron, Button, Image} from 'react-bootstrap';
+import {Container, Jumbotron, Button, Image} from 'react-bootstrap';
 import FadeIn from 'react-fade-in';
 import './style.css';
 
@@ -21,23 +21,23 @@ const Vkbe = () => {
                         <Container className='text-center'>
                             <Image src={vkbeLogo} width='250px' height='100px' className='vkbe-project-logo'/>
                             <h1 className='vkbe-project-title mt-4'>VKBE Consulting</h1>
-                            <p className='vkbe-project-subtitle mt-4'>VKBE is a technology consulting firm specialized in delivering cloud solutions</p>
+                            <p className='vkbe-project-subtitle mt-4'>A technology consulting firm specialized in delivering cloud solutions</p>
                         </Container>
                     </Container>
                 </FadeIn>
             </Jumbotron>
             <Container>
                 <Jumbotron className='gallery-jumbotron'>
-                    <Image src={vkbe1} className='vkbe-gallery' />
+                    <Image src={vkbe1} className='gallery' />
                 </Jumbotron>
                 <Jumbotron className='gallery-jumbotron'>
-                    <Image src={vkbe2} className='vkbe-gallery' />
+                    <Image src={vkbe2} className='gallery' />
                 </Jumbotron>
                 <Jumbotron className='gallery-jumbotron'>
-                    <Image src={vkbe3} className='vkbe-gallery' />
+                    <Image src={vkbe3} className='gallery' />
                 </Jumbotron>
                 <Jumbotron className='gallery-jumbotron'>
-                    <Image src={vkbe4} className='vkbe-gallery' />
+                    <Image src={vkbe4} className='gallery' />
                 </Jumbotron>
             </Container>
         </React.Fragment>

@@ -9,6 +9,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 
 import VKBE from './projects/VKBE/Vkbe';
+import Rinqydink from './projects/Rinqydink/Rinqydink';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
             <Route path='/about' component={About} />
             <Route path='/portfolio' exact component={Portfolio} />
             <Route path='/portfolio/vkbe' component={VKBE} />
+            <Route path='/portfolio/rinqydink' component={Rinqydink} />
           </Switch>
       </Router>
     </div>

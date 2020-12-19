@@ -1,0 +1,13 @@
+.rinqydink-project-jumbotron {
+    background: linear-gradient( #000000, rgb(29, 8, 22));
+    height: 620px;
+}
+
+.rinqydink-project-title {
+    color: #F5F5F5;
+}
+
+.rinqydink-project-subtitle {
+    color: #F5F5F5;
+    font-size: 20px;
+}

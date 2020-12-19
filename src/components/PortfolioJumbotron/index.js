@@ -1,13 +1,12 @@
 import React from 'react';
 import {Container, Col, Row, Jumbotron, Button, Image} from 'react-bootstrap';
 import './style.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHtml5, faCss3Alt, faJsSquare, faReact, faBootstrap } from '@fortawesome/free-brands-svg-icons';
 
 import vkbeLogo from '../../assets/images/VKBE/vkbe-logo.png';
 import vkbe1 from '../../assets/images/VKBE/vkbe-scrt.png';
-import vkbe2 from '../../assets/images/VKBE/vkbe-scrt2.png';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faJsSquare, faReact, faBootstrap } from '@fortawesome/free-brands-svg-icons';
+import rinqydink from '../../assets/images/Rinqydink/rinqydink1.png';
 
 const Projects = () => {
     return (
@@ -25,21 +24,16 @@ const Projects = () => {
                     <p className='portfolio-subtitle text-center mt-5'>More projects coming soon...</p>
                 </Container>
             </Jumbotron>
-            <Jumbotron fluid className='vkbe-jumbotron'>
-                <Container className='vkbe-container mt-4'>
-                    <Row>
-                        <Col xs={5}>
-                            <Row>
-                                <Image src={vkbeLogo} width='100px' height='50px' />
-                                <h3 className='vkbe-title ml-3 mt-2'>VKBE Consulting</h3>
-                            </Row>
-                            <Button className='vkbe-btn shadow-none mt-3' variant='link' href='/portfolio/vkbe' style={{fontSize: '20px'}}>Learn More {">"}</Button>
-                        </Col>
-                        <Col xs={7}>
-                            <Image src={vkbe1} className='vkbe-pic1'/>
-                            <Image src={vkbe2} className='vkbe-pic2' />
-                        </Col>
-                    </Row>
+            <Jumbotron fluid className='vkbe-jumbotron mb-0'>
+                <Container className='text-center'>
+                    <Image src={vkbeLogo} width='150px' height='70px' />
+                    <Button className='vkbe-btn shadow-none mt-3' variant='link' href='/portfolio/vkbe'><Image src={vkbe1} className='vkbe-pic1'/></Button>
+                </Container>
+            </Jumbotron>
+            <Jumbotron fluid className='rinqydink-jumbotron mb-0'>
+                <Container className='text-center'>
+                    <h1>Rinqydink</h1>
+                    <Button className='vkbe-btn shadow-none mt-3' variant='link' href='/portfolio/rinqydink'><Image src={rinqydink} className='vkbe-pic1'/></Button>
                 </Container>
             </Jumbotron>
         </React.Fragment>
