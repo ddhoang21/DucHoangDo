@@ -7,6 +7,7 @@ import NavigationBar from './components/Navbar';
 import Main from './pages/Main';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 
 import VKBE from './projects/VKBE/Vkbe';
 import Rinqydink from './projects/Rinqydink/Rinqydink';
@@ -22,6 +23,7 @@ const App = () => {
             <Route path='/portfolio' exact component={Portfolio} />
             <Route path='/portfolio/vkbe' component={VKBE} />
             <Route path='/portfolio/rinqydink' component={Rinqydink} />
+            <Route path='/contact' component={Contact} />
           </Switch>
       </Router>
     </div>

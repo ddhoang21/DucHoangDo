@@ -22,7 +22,11 @@ const NavigationBar = () => {
                         <Nav.Link as={NavLink} to='/portfolio' activeStyle={{
                             fontWeight: "800",
                             color: "#0000AE"
-                        }} onClick={() => setExpanded(false)}>Portfolio</Nav.Link>              
+                        }} onClick={() => setExpanded(false)}>Portfolio</Nav.Link>
+                        <Nav.Link as={NavLink} to='/contact' activeStyle={{
+                            fontWeight: "800",
+                            color: "#0000AE"
+                        }} onClick={() => setExpanded(false)}>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

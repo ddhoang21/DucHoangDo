@@ -13,20 +13,6 @@
     margin-bottom: 20px;
 }
 
-.contact-info {
-    color: #DCDCDC;
-    font-size: 17px;
-}
-
-.social-links {
-    color: #DCDCDC;
-    text-decoration: none;
-}
-
-.social-links:hover {
-    color: #0000AE;
-}
-
 .about-title {
     font-size: 60px;
     font-weight: 600;
@@ -39,28 +25,8 @@
 }
 
 .about-quote {
+    color: #F5F5F5;
     font-size: 25px;
     font-weight: 600;
     margin-top: 120px;
-}
-
-.talk-btn {
-    color: #0000AE;
-    text-decoration: none;
-    margin-bottom: 3px;
-}
-
-.talk-btn:hover {
-    color: #0000AE;
-    text-decoration: none;
-}
-
-.talk-btn:focus {
-    color: #0000AE;
-    text-decoration: none;
-}
-
-.talk-btn:active {
-    color: #0000AE;
-    text-decoration: none;
 }
