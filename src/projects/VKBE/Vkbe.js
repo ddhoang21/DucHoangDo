@@ -16,7 +16,7 @@ const Vkbe = () => {
         <React.Fragment>
             <Jumbotron fluid className='vkbe-project-jumbotron'>
                 <FadeIn delay ={100} transitionDuration={1000}>
-                    <Button as={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio' style={{fontSize: '20px'}}>{"<"} Back to projects</Button>
+                    <Button as={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio'><p className='back-btn-text'>{"<"} Back to projects</p></Button>
                     <Container className='vkbe-project-container mt-4'>
                         <Container className='text-center'>
                             <Image src={vkbeLogo} className='vkbe-project-logo'/>

@@ -13,6 +13,10 @@
     text-decoration: none;
 }
 
+.back-btn-text {
+    font-size: 25px;
+}
+
 .vkbe-project-logo {
     width: 250px;
     height: 100px;
@@ -63,6 +67,10 @@
         font-size: 22px;
     }
 
+    .back-btn-text {
+        font-size: 22px;
+    }
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -77,6 +85,10 @@
     }
 
     .vkbe-project-subtitle {
+        font-size: 19px;
+    }
+
+    .back-btn-text {
         font-size: 19px;
     }
 
@@ -97,6 +109,10 @@
         font-size: 17px;
     }
 
+    .back-btn-text {
+        font-size: 17px;
+    }
+
 }
 
 @media only screen and (max-width: 575px) {
@@ -114,6 +130,10 @@
         font-size: 15px;
     }
 
+    .back-btn-text {
+        font-size: 15px;
+    }
+
 }
 
 @media only screen and (max-width: 465px) {
@@ -128,6 +148,10 @@
     }
 
     .vkbe-project-subtitle {
+        font-size: 13px;
+    }
+
+    .back-btn-text {
         font-size: 13px;
     }
 

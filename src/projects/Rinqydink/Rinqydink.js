@@ -17,7 +17,7 @@ const Rinqydink = () => {
         <React.Fragment>
             <Jumbotron fluid className='rinqydink-project-jumbotron'>
                 <FadeIn delay ={100} transitionDuration={1000}>
-                    <Button as={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio' style={{fontSize: '20px'}}>{"<"} Back to projects</Button>
+                    <Button as={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio'><p className='back-btn-text'>{"<"} Back to projects</p></Button>
                     <Container className='rinqydink-project-container mt-4'>
                         <Container className='text-center'>
                             <h1 className='rinqydink-project-title mt-4'>Rinqydink Arcade</h1>
