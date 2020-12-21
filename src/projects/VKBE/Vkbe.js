@@ -19,7 +19,7 @@ const Vkbe = () => {
                     <Button as={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio' style={{fontSize: '20px'}}>{"<"} Back to projects</Button>
                     <Container className='vkbe-project-container mt-4'>
                         <Container className='text-center'>
-                            <Image src={vkbeLogo} width='250px' height='100px' className='vkbe-project-logo'/>
+                            <Image src={vkbeLogo} className='vkbe-project-logo'/>
                             <h1 className='vkbe-project-title mt-4'>VKBE Consulting</h1>
                             <p className='vkbe-project-subtitle mt-4'>A technology consulting firm specialized in delivering cloud solutions</p>
                         </Container>

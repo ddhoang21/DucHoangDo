@@ -5,9 +5,70 @@
 
 .rinqydink-project-title {
     color: #F5F5F5;
+    font-size: 50px;
 }
 
 .rinqydink-project-subtitle {
     color: #F5F5F5;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1199px) {
+
+    .rinqydink-project-title {
+        font-size: 45px;
+    }
+
+    .rinqydink-project-subtitle {
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .rinqydink-project-title {
+        font-size: 40px;
+    }
+
+    .rinqydink-project-subtitle {
+        font-size: 19px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .rinqydink-project-title {
+        font-size: 35px;
+    }
+
+    .rinqydink-project-subtitle {
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+
+    .rinqydink-project-title {
+        font-size: 30px;
+    }
+
+    .rinqydink-project-subtitle {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 465px) {
+    
+    .rinqydink-project-title {
+        font-size: 25px;
+    }
+
+    .rinqydink-project-subtitle {
+        font-size: 13px;
+    }
+
 }

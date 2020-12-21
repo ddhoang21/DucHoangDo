@@ -13,13 +13,19 @@
     text-decoration: none;
 }
 
+.vkbe-project-logo {
+    width: 250px;
+    height: 100px;
+}
+
 .vkbe-project-title {
     color: #F5F5F5;
+    font-size: 50px;
 }
 
 .vkbe-project-subtitle {
     color: #F5F5F5;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .gallery-title {
@@ -39,4 +45,90 @@
 .gallery {
     height: auto;
     width: 100%;
+}
+
+
+@media only screen and (max-width: 1199px) {
+
+    .vkbe-project-logo {
+        width: 235px;
+        height: 90px;
+    }
+
+    .vkbe-project-title {
+        font-size: 45px;
+    }
+
+    .vkbe-project-subtitle {
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .vkbe-project-logo {
+        width: 220px;
+        height: 80px;
+    }
+
+    .vkbe-project-title {
+        font-size: 40px;
+    }
+
+    .vkbe-project-subtitle {
+        font-size: 19px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .vkbe-project-logo {
+        width: 205px;
+        height: 70px;
+    }
+
+    .vkbe-project-title {
+        font-size: 35px;
+    }
+
+    .vkbe-project-subtitle {
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+
+    .vkbe-project-logo {
+        width: 190px;
+        height: 60px;
+    }
+
+    .vkbe-project-title {
+        font-size: 30px;
+    }
+
+    .vkbe-project-subtitle {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 465px) {
+
+    .vkbe-project-logo {
+        width: 175px;
+        height: 50px;
+    }
+
+    .vkbe-project-title {
+        font-size: 25px;
+    }
+
+    .vkbe-project-subtitle {
+        font-size: 13px;
+    }
+
 }
