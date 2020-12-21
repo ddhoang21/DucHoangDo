@@ -21,6 +21,7 @@ const Intro = () => {
                             <p className='about-text'>Creating websites from scratch helped me grow and become a more versatile developer. My motivation and dedication is what strives me to build elegant applications for users.</p>
                             <p className='about-text'>I primarily have expertise with React but I'm also proficient with React-Native for iOS and Android mobile applications.</p>    
                         </Container>
+                        <br></br>
                     <Button as={Link} className='portfolio-btn shadow-none' variant='link' to='/portfolio'><p className='portfolio-btn-text'><strong>Check out my projects {">"}</strong></p></Button>
                     </FadeIn>
                 </Container>
