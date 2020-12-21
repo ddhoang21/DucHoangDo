@@ -21,7 +21,7 @@ const Rinqydink = () => {
                     <Container className='rinqydink-project-container mt-4'>
                         <Container className='text-center'>
                             <h1 className='rinqydink-project-title mt-4'>Rinqydink Arcade</h1>
-                            <p className='rinqydink-project-subtitle mt-4'>An online gaming web app letting users interact with each other</p>
+                            <p className='rinqydink-project-subtitle mt-4'>An online gaming web app letting users compete and interact with each other</p>
                         </Container>
                     </Container>
                 </FadeIn>

@@ -14,7 +14,7 @@ const ContactMe = () => {
             <Jumbotron className='contact-container'>
                 <FadeIn delay ={100} transitionDuration={1000}>
                     <Container className='contact-section'>
-                    <h1 className='contact-title text-center'>Let's get in touch</h1>
+                    <h1 className='contact-title text-center'>Let's talk.</h1>
                         <Container className='text-center'>
                             <Image src={pic} className='contact-pic'/>
                             <Container className='contact-info'>
@@ -28,7 +28,7 @@ const ContactMe = () => {
                             </Container>
                         </Container>
                     </Container>
-                    <p className='contact-text text-center mt-5'>Interested in working with me? Contact me via email or schedule a<Button className='talk-btn shadow-none' variant='link' href='https://calendly.com/duchoang' target='_blank' style={{fontSize: '20px'}}>consultation</Button></p>
+                    <p className='contact-text text-center mt-5'>Get in touch via email or schedule a<Button className='talk-btn shadow-none' variant='link' href='https://calendly.com/duchoang' target='_blank' style={{fontSize: '20px'}}>consultation</Button></p>
                 </FadeIn>
             </Jumbotron>
         </React.Fragment>
