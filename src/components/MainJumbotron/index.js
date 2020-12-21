@@ -18,7 +18,6 @@ const Landing = () => {
                         <p className='text'>
                             <Typical
                                 loop={Infinity}
-                                // wrapper='b'
                                 steps={[
                                     "I'm a coffee lover", 2000,
                                     "I'm a soccer fan", 2000,

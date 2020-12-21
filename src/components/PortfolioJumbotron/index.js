@@ -28,13 +28,13 @@ const Projects = () => {
                 </Jumbotron>
                 <Jumbotron fluid className='vkbe-jumbotron mb-0'>
                     <Container className='text-center'>
-                        <Image src={vkbeLogo} width='150px' height='70px' />
+                        <Image src={vkbeLogo} className='vkbe-logo' />
                         <Button className='vkbe-btn shadow-none mt-3' variant='link' href='/portfolio/vkbe'><Image src={vkbe1} className='vkbe-pic1'/></Button>
                     </Container>
                 </Jumbotron>
                 <Jumbotron fluid className='rinqydink-jumbotron mb-0'>
                     <Container className='text-center'>
-                        <h1 style={{color: '#F5F5F5'}}>Rinqydink</h1>
+                        <h1 className='rinqydink-title'>Rinqydink</h1>
                         <Button className='vkbe-btn shadow-none mt-3' variant='link' href='/portfolio/rinqydink'><Image src={rinqydink} className='vkbe-pic1'/></Button>
                     </Container>
                 </Jumbotron>
