@@ -29,7 +29,7 @@ const Landing = () => {
                         </p>
                     </Container>
                     <Container className='text-center'>
-                        <Button as={Link} className='more-btn shadow-none' variant='link' to='/about' style={{fontSize: '20px'}}><strong>Learn More {">"}</strong></Button>
+                        <Button as={Link} className='more-btn shadow-none' variant='link' to='/about'><p className='more-btn-text'><strong>Learn More {">"}</strong></p></Button>
                     </Container>
                 </FadeIn>
             </Jumbotron>

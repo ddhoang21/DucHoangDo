@@ -24,9 +24,128 @@
     color: #DCDCDC;
 }
 
-.about-quote {
-    color: #F5F5F5;
-    font-size: 25px;
-    font-weight: 600;
-    margin-top: 120px;
+.portfolio-btn-text {
+    font-size: 20px;
+}
+
+.portfolio-btn {
+    color: #0000AE;
+    text-decoration: none;
+}
+  
+.portfolio-btn:hover {
+    color: #0000AE;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .about-title {
+        font-size: 50px;
+    }
+
+    .about-text {
+        font-size: 18px;
+    }
+
+    .portfolio-btn-text {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 1005px) {
+    
+    .about-title {
+        font-size: 45px;
+    }
+
+}
+
+@media only screen and (max-width: 997px) {
+    
+    .about-text {
+        font-size: 17px;
+    }
+
+    .portfolio-btn-text {
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    
+    .about-title {
+        font-size: 35px;
+    }
+
+}
+
+@media only screen and (max-width: 776px) {
+
+    .about-text {
+        font-size: 15px;
+    }
+
+    .portfolio-btn-text {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .about-title {
+        font-size: 26px;
+    }
+
+}
+
+@media only screen and (max-width: 589px) {
+    
+    .about-title {
+        font-size: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 521px) {
+    
+    .about-title {
+        font-size: 21px;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+
+    .portfolio-btn-text {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 471px) {
+    
+    .about-title {
+        font-size: 19px;
+    }
+
+    .about-text {
+        font-size: 12px;
+    }
+
+    .portfolio-btn-text {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 442px) {
+    
+    .about-title {
+        font-size: 18px;
+    }
+
 }

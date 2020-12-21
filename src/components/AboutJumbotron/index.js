@@ -1,5 +1,6 @@
 import React from 'react';
-import {Container, Jumbotron} from 'react-bootstrap';
+import {Container, Jumbotron, Button} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 import FadeIn from 'react-fade-in';
 import './style.css';
 
@@ -20,13 +21,9 @@ const Intro = () => {
                             <p className='about-text'>Creating websites from scratch helped me grow and become a more versatile developer. My motivation and dedication is what strives me to build elegant applications for users.</p>
                             <p className='about-text'>I primarily have expertise with React but I'm also proficient with React-Native for iOS and Android mobile applications.</p>    
                         </Container>
+                    <Button as={Link} className='portfolio-btn shadow-none' variant='link' to='/portfolio'><p className='portfolio-btn-text'><strong>Check out my projects {">"}</strong></p></Button>
                     </FadeIn>
                 </Container>
-                <FadeIn delay={700} transitionDuration={1000}>
-                    <Container className='about-quote'>
-                        <p>“Live as if you were to die tomorrow. Learn as if you were to live forever.” {' '}- Mahatma Gandhi</p>
-                    </Container>
-                </FadeIn>
             </Jumbotron>
         </React.Fragment>
     )
