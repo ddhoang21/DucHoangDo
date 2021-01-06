@@ -1,6 +1,6 @@
 .contact-container {
     background-color: #080808;
-    margin-top: 30px;
+    height: 95vh;
 }
 
 .contact-section {
@@ -29,9 +29,11 @@
     font-size: 25px;
 }
 
+
 .social-links {
     color: #DCDCDC;
     text-decoration: none;
+    font-size: 7vh;
 }
 
 .social-links:hover {
@@ -103,7 +105,6 @@
         font-size: 21px;
     }
 
-
 }
 
 @media only screen and (max-width: 575px) {
@@ -124,6 +125,9 @@
         font-size: 19px;
     }
 
+    .social-links {
+        font-size: 6vh;
+    }
 
 }
 
@@ -146,6 +150,9 @@
         margin-top: 17px;
     }
 
+    .social-links {
+        font-size: 5vh;
+    }
 
 }
 

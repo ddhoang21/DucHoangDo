@@ -14,7 +14,7 @@ const ContactMe = () => {
             <Jumbotron className='contact-container'>
                 <FadeIn delay ={100} transitionDuration={1000}>
                     <Container className='contact-section'>
-                    <h1 className='contact-title text-center'>Let's talk.</h1>
+                    {/* <h1 className='contact-title text-center'>Let's talk.</h1> */}
                         <Container className='text-center'>
                             <Image src={pic} className='contact-pic'/>
                             <Container className='contact-info'>
@@ -23,8 +23,8 @@ const ContactMe = () => {
                                 <p>Seattle, WA {' '}<FontAwesomeIcon icon={faMapMarkerAlt} size='md'/></p>
                             </Container>
                             <Container className='mt-3'>
-                                <Button className='shadow-none' variant='link' href='https://www.linkedin.com/in/duchoangdo/' target='_blank'><FontAwesomeIcon icon={faLinkedin} size='3x' className='social-links' active/></Button>
-                                <Button className='shadow-none' variant='link' href='https://github.com/ddhoang21' target='_blank'><FontAwesomeIcon icon={faGithub} size='3x' className='social-links'/></Button>
+                                <Button className='shadow-none' variant='link' href='https://www.linkedin.com/in/duchoangdo/' target='_blank'><FontAwesomeIcon icon={faLinkedin} className='social-links' active/></Button>
+                                <Button className='shadow-none' variant='link' href='https://github.com/ddhoang21' target='_blank'><FontAwesomeIcon icon={faGithub} className='social-links'/></Button>
                             </Container>
                         </Container>
                     </Container>
