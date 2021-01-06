@@ -51,6 +51,11 @@
     width: 100%;
 }
 
+.skip-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 @media only screen and (max-width: 1199px) {
 

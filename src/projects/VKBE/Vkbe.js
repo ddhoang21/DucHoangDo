@@ -14,9 +14,9 @@ import {Link} from 'react-router-dom';
 const Vkbe = () => {
     return (
         <React.Fragment>
-            <Jumbotron fluid className='vkbe-project-jumbotron'>
-                <FadeIn delay ={100} transitionDuration={1000}>
-                    <Button as={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio'><p className='back-btn-text'>{"<"} Back to projects</p></Button>
+            <FadeIn delay ={100} transitionDuration={1000}>
+                <Jumbotron fluid className='vkbe-project-jumbotron'>
+                    <Button as={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio'><p className='back-btn-text'>{"<"} Back to all projects</p></Button>
                     <Container className='vkbe-project-container mt-4'>
                         <Container className='text-center'>
                             <Image src={vkbeLogo} className='vkbe-project-logo'/>
@@ -24,22 +24,26 @@ const Vkbe = () => {
                             <p className='vkbe-project-subtitle mt-4'>A technology consulting firm specialized in delivering cloud solutions</p>
                         </Container>
                     </Container>
-                </FadeIn>
-            </Jumbotron>
-            <Container>
-                <Jumbotron className='gallery-jumbotron'>
-                    <Image src={vkbe1} className='gallery' />
                 </Jumbotron>
-                <Jumbotron className='gallery-jumbotron'>
-                    <Image src={vkbe2} className='gallery' />
-                </Jumbotron>
-                <Jumbotron className='gallery-jumbotron'>
-                    <Image src={vkbe3} className='gallery' />
-                </Jumbotron>
-                <Jumbotron className='gallery-jumbotron'>
-                    <Image src={vkbe4} className='gallery' />
-                </Jumbotron>
-            </Container>
+                <Container>
+                    <Jumbotron className='gallery-jumbotron'>
+                        <Image src={vkbe1} className='gallery' />
+                    </Jumbotron>
+                    <Jumbotron className='gallery-jumbotron'>
+                        <Image src={vkbe2} className='gallery' />
+                    </Jumbotron>
+                    <Jumbotron className='gallery-jumbotron'>
+                        <Image src={vkbe3} className='gallery' />
+                    </Jumbotron>
+                    <Jumbotron className='gallery-jumbotron'>
+                        <Image src={vkbe4} className='gallery' />
+                    </Jumbotron>
+                </Container>
+                <div className='skip-buttons'>
+                    <Button className='back-btn shadow-none mt-4 ml-5' variant='link' href='/portfolio'><p className='back-btn-text'>{"<"} Back</p></Button>
+                    <Button className='back-btn shadow-none mt-4 mr-5' variant='link' href='/portfolio/bookityourself'><p className='back-btn-text'>Next project {">"}</p></Button>
+                </div>
+            </FadeIn>
         </React.Fragment>
     )
 }
