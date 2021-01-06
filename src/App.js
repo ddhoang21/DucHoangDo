@@ -11,6 +11,7 @@ import Contact from './pages/Contact';
 
 import VKBE from './projects/VKBE/Vkbe';
 import Rinqydink from './projects/Rinqydink/Rinqydink';
+import BookItYourself from './projects/Book-It-Yourself/BookItYourself';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
             <Route path='/portfolio' exact component={Portfolio} />
             <Route path='/portfolio/vkbe' component={VKBE} />
             <Route path='/portfolio/rinqydink' component={Rinqydink} />
+            <Route path='/portfolio/bookityourself' component={BookItYourself} />
             <Route path='/contact' component={Contact} />
           </Switch>
       </Router>

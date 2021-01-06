@@ -4,7 +4,7 @@ import Projects from '../components/PortfolioJumbotron';
 const Portfolio = () => {
     return (
         <React.Fragment>
-                <Projects />
+            <Projects />
         </React.Fragment>
     )
 }

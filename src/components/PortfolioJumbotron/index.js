@@ -8,6 +8,7 @@ import { faHtml5, faCss3Alt, faJsSquare, faReact, faBootstrap } from '@fortaweso
 import vkbeLogo from '../../assets/images/VKBE/vkbe-logo.png';
 import vkbe1 from '../../assets/images/VKBE/vkbe-scrt.png';
 import rinqydink from '../../assets/images/Rinqydink/rinqydink1.png';
+import BIY1 from '../../assets/images/Book-It-Yourself/BIY-1.png';
 
 const Projects = () => {
     return (
@@ -30,6 +31,12 @@ const Projects = () => {
                     <Container className='text-center'>
                         <Image src={vkbeLogo} className='vkbe-logo' />
                         <Button className='vkbe-btn shadow-none mt-3' variant='link' href='/portfolio/vkbe'><Image src={vkbe1} className='vkbe-pic1'/></Button>
+                    </Container>
+                </Jumbotron>
+                <Jumbotron fluid className='BIY-jumbotron mb-0'>
+                    <Container className='text-center'>
+                        <h1 className='BIY-title'>Book-It-Yourself</h1>
+                        <Button className='vkbe-btn shadow-none mt-3' variant='link' href='/portfolio/bookityourself'><Image src={BIY1} className='vkbe-pic1'/></Button>
                     </Container>
                 </Jumbotron>
                 <Jumbotron fluid className='rinqydink-jumbotron mb-0'>
