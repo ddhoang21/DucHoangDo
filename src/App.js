@@ -19,7 +19,7 @@ const App = () => {
       <Router>
         <NavigationBar />
           <Switch>
-            <Route path='/' exact component={Main} />
+            <Route path='/DucHoangDo' component={Main} />
             <Route path='/about' component={About} />
             <Route path='/portfolio' exact component={Portfolio} />
             <Route path='/portfolio/vkbe' component={VKBE} />
