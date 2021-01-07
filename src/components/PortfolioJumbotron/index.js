@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container, Jumbotron, Button, Image} from 'react-bootstrap';
 import FadeIn from 'react-fade-in';
+import {Link} from 'react-router-dom';
 import './style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJsSquare, faReact, faBootstrap } from '@fortawesome/free-brands-svg-icons';
@@ -30,7 +31,7 @@ const Projects = () => {
                 <Jumbotron fluid className='vkbe-jumbotron mb-0'>
                     <Container className='text-center'>
                         <Image src={vkbeLogo} className='vkbe-logo' />
-                        <Button className='vkbe-btn shadow-none mt-3' variant='link' href='/portfolio/vkbe'><Image src={vkbe1} className='vkbe-pic1'/></Button>
+                        <Button as={Link} className='vkbe-btn shadow-none mt-3' variant='link' to='/portfolio/vkbe'><Image src={vkbe1} className='vkbe-pic1'/></Button>
                     </Container>
                 </Jumbotron>
                 <Jumbotron fluid className='BIY-jumbotron mb-0'>

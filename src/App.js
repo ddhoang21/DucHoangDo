@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 
 import VKBE from './projects/VKBE/Vkbe';
 import Rinqydink from './projects/Rinqydink/Rinqydink';
-import BookItYourself from './projects/Book-It-Yourself/BookItYourself';
+import BookItYourself from './projects/BIY/BookItYourself';
 
 const App = () => {
   return (
