@@ -11,7 +11,7 @@ const NavigationBar = () => {
             <Navbar.Toggle aria-controls='responsive-navbar-nav' onClick={() => setExpanded(expanded ? false : 'expanded')}/>
                 <Navbar.Collapse id='responsive-navbar-nav'>
                     <Nav className='nav ml-auto mr-auto'>
-                        <Nav.Link as={NavLink} exact to='/DucHoangDo' activeStyle={{
+                        <Nav.Link as={NavLink} to='/DucHoangDo/' activeStyle={{
                             fontWeight: "800",
                             color: "#0000AE"
                         }} onClick={() => setExpanded(false)}>Home</Nav.Link>
