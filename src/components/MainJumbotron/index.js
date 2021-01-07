@@ -22,6 +22,7 @@ const Landing = () => {
                                     "I'm a coffee lover", 2000,
                                     "I'm a soccer fan", 2000,
                                     "I'm a music enthusiast", 2000,
+                                    "I'm a Rocket League novice", 2000,
                                     "I'm an explorer", 2000
                                 ]}
                             />

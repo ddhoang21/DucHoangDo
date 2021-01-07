@@ -20,7 +20,7 @@ const BookItYourself = () => {
                     <Container className='BIY-project-container mt-4'>
                         <Container className='text-center'>
                             <h1 className='BIY-project-title mt-4'>Book-It-Yourself</h1>
-                            <p className='BIY-project-subtitle mt-4'>An app that connects artists and promoters across the globe</p>
+                            <p className='BIY-project-subtitle mt-4'>A social networking site that lets artists and promoters connect with each other across the globe</p>
                         </Container>
                     </Container>
                 </Jumbotron>

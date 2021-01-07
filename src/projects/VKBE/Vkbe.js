@@ -21,7 +21,7 @@ const Vkbe = () => {
                         <Container className='text-center'>
                             <Image src={vkbeLogo} className='vkbe-project-logo'/>
                             <h1 className='vkbe-project-title mt-4'>VKBE Consulting</h1>
-                            <p className='vkbe-project-subtitle mt-4'>A technology consulting firm specialized in delivering cloud solutions</p>
+                            <p className='vkbe-project-subtitle mt-4'>A single-page application for a technology consulting firm specialized in delivering cloud solutions</p>
                         </Container>
                     </Container>
                 </Jumbotron>
