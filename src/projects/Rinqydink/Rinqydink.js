@@ -45,8 +45,8 @@ const Rinqydink = () => {
                     </Jumbotron>
                 </Container>
                 <div className='skip-buttons'>
-                    <Button className='back-btn shadow-none mt-4 ml-5' variant='link' href='/portfolio/bookityourself'><p className='back-btn-text'>{"<"} Previous project</p></Button>
-                    <Button className='back-btn shadow-none mt-4 mr-5' variant='link' href='/portfolio'><p className='back-btn-text'>Next project {">"}</p></Button>
+                    <Button as ={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio/bookityourself'><p className='back-btn-text'>{"<"} Previous project</p></Button>
+                    <Button as ={Link} className='back-btn shadow-none mt-4 mr-5' variant='link' to='/portfolio'><p className='back-btn-text'>Next project {">"}</p></Button>
                 </div>
             </FadeIn>
         </React.Fragment>

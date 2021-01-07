@@ -45,8 +45,8 @@ const BookItYourself = () => {
                     </Jumbotron>
                 </Container>
                 <div className='skip-buttons'>
-                    <Button className='back-btn shadow-none mt-4 ml-5' variant='link' href='/portfolio/vkbe'><p className='back-btn-text'>{"<"} Previous project</p></Button>
-                    <Button className='back-btn shadow-none mt-4 mr-5' variant='link' href='/portfolio/rinqydink'><p className='back-btn-text'>Next project {">"}</p></Button>
+                    <Button as ={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio/vkbe'><p className='back-btn-text'>{"<"} Previous project</p></Button>
+                    <Button as ={Link} className='back-btn shadow-none mt-4 mr-5' variant='link' to='/portfolio/rinqydink'><p className='back-btn-text'>Next project {">"}</p></Button>
                 </div>
             </FadeIn>
         </React.Fragment>

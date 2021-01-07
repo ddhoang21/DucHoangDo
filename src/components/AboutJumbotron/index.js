@@ -18,7 +18,7 @@ const Intro = () => {
                         <Container>
                             <p className='about-text'>Originally from Belgium, I've lived in Seattle for the past decade where it has now become my home.</p>
                             <p className='about-text'>I attended a Bootcamp which ignited my passion for frontend web development. Since then, I've continuously worked on projects to build up my skills and knowledge in the field.</p>
-                            <p className='about-text'>Creating websites from scratch helped me grow and become a more versatile developer. My motivation and dedication is what strives me to build elegant applications for users.</p>
+                            <p className='about-text'>Creating websites from scratch helped me grow and become a more versatile developer. My motivation and dedication is what strives me towards building elegant applications for users.</p>
                             <p className='about-text'>I primarily have expertise with React but I'm also proficient with React-Native for iOS and Android mobile applications.</p>    
                         </Container>
                         <br></br>

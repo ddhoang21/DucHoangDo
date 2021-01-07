@@ -37,13 +37,13 @@ const Projects = () => {
                 <Jumbotron fluid className='BIY-jumbotron mb-0'>
                     <Container className='text-center'>
                         <h1 className='BIY-title'>Book-It-Yourself</h1>
-                        <Button className='vkbe-btn shadow-none mt-3' variant='link' href='/portfolio/bookityourself'><Image src={BIY1} className='vkbe-pic1'/></Button>
+                        <Button as ={Link} className='vkbe-btn shadow-none mt-3' variant='link' to='/portfolio/bookityourself'><Image src={BIY1} className='vkbe-pic1'/></Button>
                     </Container>
                 </Jumbotron>
                 <Jumbotron fluid className='rinqydink-jumbotron mb-0'>
                     <Container className='text-center'>
                         <h1 className='rinqydink-title'>Rinqydink</h1>
-                        <Button className='vkbe-btn shadow-none mt-3' variant='link' href='/portfolio/rinqydink'><Image src={rinqydink} className='vkbe-pic1'/></Button>
+                        <Button as ={Link} className='vkbe-btn shadow-none mt-3' variant='link' to='/portfolio/rinqydink'><Image src={rinqydink} className='vkbe-pic1'/></Button>
                     </Container>
                 </Jumbotron>
             </FadeIn>
