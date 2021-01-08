@@ -14,9 +14,9 @@ import BIY6 from '../../assets/images/Book-It-Yourself/BIY-6.png';
 const BookItYourself = () => {
     const { pathname } = useLocation();
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
     return (
         <React.Fragment>
             <FadeIn delay ={100} transitionDuration={1000}>
