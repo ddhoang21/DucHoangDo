@@ -41,7 +41,7 @@
 }
 
 .talk-btn {
-    color: #0000AE;
+    color: #FFC000;
     text-decoration: none;
     margin-bottom: 3px;
 }
@@ -52,17 +52,17 @@
 }
 
 .talk-btn:hover {
-    color: #0000AE;
+    color: #FFC000;
     text-decoration: none;
 }
 
 .talk-btn:focus {
-    color: #0000AE;
+    color: #FFC000;
     text-decoration: none;
 }
 
 .talk-btn:active {
-    color: #0000AE;
+    color: #FFC000;
     text-decoration: none;
 }
 
