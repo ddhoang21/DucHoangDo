@@ -12,8 +12,7 @@
 .header-text {
   color: #F5F5F5;
   font-family: 'Open Sans Condensed';
-  text-shadow: 3px 3px #0000AE,
-  2px 2px #0000AE;
+  text-shadow: 2px 2px #0000AE
 }
 
 .name {
