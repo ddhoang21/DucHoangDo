@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Container, Jumbotron, Button, Image} from 'react-bootstrap';
 import FadeIn from 'react-fade-in';
 import './style.css';
+import {Link, useLocation} from 'react-router-dom';
 
 import vkbeLogo from '../../assets/images/VKBE/vkbe-logo.png';
 import vkbe1 from '../../assets/images/VKBE/vkbe-scrt.png';
@@ -9,9 +10,12 @@ import vkbe2 from '../../assets/images/VKBE/vkbe-scrt2.png';
 import vkbe3 from '../../assets/images/VKBE/vkbe-scrt3.png';
 import vkbe4 from '../../assets/images/VKBE/vkbe-scrt4.png';
 
-import {Link} from 'react-router-dom';
-
 const Vkbe = () => {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
     return (
         <React.Fragment>
             <FadeIn delay ={100} transitionDuration={1000}>

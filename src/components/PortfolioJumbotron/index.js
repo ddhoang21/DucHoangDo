@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Container, Jumbotron, Button, Image} from 'react-bootstrap';
 import FadeIn from 'react-fade-in';
-import {Link} from 'react-router-dom';
+import {Link, useLocation} from 'react-router-dom';
 import './style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJsSquare, faReact, faBootstrap } from '@fortawesome/free-brands-svg-icons';
@@ -12,6 +12,11 @@ import rinqydink from '../../assets/images/Rinqydink/rinqydink1.png';
 import BIY1 from '../../assets/images/Book-It-Yourself/BIY-1.png';
 
 const Projects = () => {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
     return (
         <React.Fragment>
             <FadeIn delay ={100} transitionDuration={1000}>

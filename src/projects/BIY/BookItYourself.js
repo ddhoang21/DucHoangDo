@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Container, Jumbotron, Button, Image} from 'react-bootstrap';
 import FadeIn from 'react-fade-in';
 import './style.css';
-import {Link} from 'react-router-dom';
+import {Link, useLocation} from 'react-router-dom';
 
 import BIY1 from '../../assets/images/Book-It-Yourself/BIY-1.png';
 import BIY2 from '../../assets/images/Book-It-Yourself/BIY-2.png';
@@ -12,6 +12,11 @@ import BIY5 from '../../assets/images/Book-It-Yourself/BIY-5.png';
 import BIY6 from '../../assets/images/Book-It-Yourself/BIY-6.png';
 
 const BookItYourself = () => {
+    const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
     return (
         <React.Fragment>
             <FadeIn delay ={100} transitionDuration={1000}>

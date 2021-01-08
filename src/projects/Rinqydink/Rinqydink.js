@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Container, Jumbotron, Button, Image} from 'react-bootstrap';
 import FadeIn from 'react-fade-in';
 import './style.css';
-import {Link} from 'react-router-dom';
+import {Link, useLocation} from 'react-router-dom';
 
 import rinqydink1 from '../../assets/images/Rinqydink/rinqydink1.png';
 import rinqydink2 from '../../assets/images/Rinqydink/rinqydink2.png';
@@ -12,6 +12,11 @@ import rinqydink5 from '../../assets/images/Rinqydink/rinqydink5.png';
 import rinqydink6 from '../../assets/images/Rinqydink/rinqydink6.png';
 
 const Rinqydink = () => {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
     return (
         <React.Fragment>
             <FadeIn delay ={100} transitionDuration={1000}>
