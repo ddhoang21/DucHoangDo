@@ -20,7 +20,7 @@ const Vkbe = () => {
         <React.Fragment>
             <FadeIn delay ={100} transitionDuration={1000}>
                 <Jumbotron fluid className='vkbe-project-jumbotron'>
-                    <Button as={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio'><p className='back-btn-text'>{"<"} Back to all projects</p></Button>
+                    <Button as={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio'><p className='back-btn-text'><strong>{"<"} Back to all projects</strong></p></Button>
                     <Container className='vkbe-project-container mt-4'>
                         <Container className='text-center'>
                             <Image src={vkbeLogo} className='vkbe-project-logo'/>
@@ -44,8 +44,8 @@ const Vkbe = () => {
                     </Jumbotron>
                 </Container>
                 <div className='skip-buttons'>
-                    <Button as ={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio'><p className='back-btn-text'>{"<"} Back</p></Button>
-                    <Button as ={Link} className='back-btn shadow-none mt-4 mr-5' variant='link' to='/portfolio/bookityourself'><p className='back-btn-text'>Next project {">"}</p></Button>
+                    <Button as ={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio'><p className='back-btn-text'><strong>{"<"} Back</strong></p></Button>
+                    <Button as ={Link} className='back-btn shadow-none mt-4 mr-5' variant='link' to='/portfolio/bookityourself'><p className='back-btn-text'><strong>Next project {">"}</strong></p></Button>
                 </div>
             </FadeIn>
         </React.Fragment>

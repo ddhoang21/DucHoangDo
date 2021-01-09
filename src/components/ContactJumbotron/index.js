@@ -1,5 +1,5 @@
 import React from 'react';
-import {Jumbotron, Row, Col, Container, Button, Image} from 'react-bootstrap';
+import {Jumbotron, Container, Button, Image} from 'react-bootstrap';
 import FadeIn from 'react-fade-in';
 import './style.css';
 import pic from '../../assets/images/me-2.jpg';
@@ -14,7 +14,6 @@ const ContactMe = () => {
             <Jumbotron className='contact-container'>
                 <FadeIn delay ={100} transitionDuration={1000}>
                     <Container className='contact-section'>
-                    {/* <h1 className='contact-title text-center'>Let's talk.</h1> */}
                         <Container className='text-center'>
                             <Image src={pic} className='contact-pic'/>
                             <Container className='contact-info'>

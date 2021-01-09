@@ -21,7 +21,7 @@ const BookItYourself = () => {
         <React.Fragment>
             <FadeIn delay ={100} transitionDuration={1000}>
                 <Jumbotron fluid className='BIY-project-jumbotron'>
-                    <Button as={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio'><p className='back-btn-text'>{"<"} Back to all projects</p></Button>
+                    <Button as={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio'><p className='back-btn-text'><strong>{"<"} Back to all projects</strong></p></Button>
                     <Container className='BIY-project-container mt-4'>
                         <Container className='text-center'>
                             <h1 className='BIY-project-title mt-4'>Book-It-Yourself</h1>
@@ -50,8 +50,8 @@ const BookItYourself = () => {
                     </Jumbotron>
                 </Container>
                 <div className='skip-buttons'>
-                    <Button as ={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio/vkbe'><p className='back-btn-text'>{"<"} Previous project</p></Button>
-                    <Button as ={Link} className='back-btn shadow-none mt-4 mr-5' variant='link' to='/portfolio/rinqydink'><p className='back-btn-text'>Next project {">"}</p></Button>
+                    <Button as ={Link} className='back-btn shadow-none mt-4 ml-5' variant='link' to='/portfolio/vkbe'><p className='back-btn-text'><strong>{"<"} Previous project</strong></p></Button>
+                    <Button as ={Link} className='back-btn shadow-none mt-4 mr-5' variant='link' to='/portfolio/rinqydink'><p className='back-btn-text'><strong>Next project {">"}</strong></p></Button>
                 </div>
             </FadeIn>
         </React.Fragment>
