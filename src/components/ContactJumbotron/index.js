@@ -2,7 +2,7 @@ import React from 'react';
 import {Jumbotron, Container, Button, Image} from 'react-bootstrap';
 import FadeIn from 'react-fade-in';
 import './style.css';
-import pic from '../../assets/images/me-2.jpg';
+import pic from '../../assets/images/me-3.jpg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faEnvelope, faPhone, faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons';

@@ -3,7 +3,7 @@ import {Jumbotron, Container, Button, Image} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 import Typical from 'react-typical';
 import './style.css';
-import pic from '../../assets/images/me-2.jpg'; 
+import pic from '../../assets/images/me-3.jpg';
 import FadeIn from 'react-fade-in';
 
 const Landing = () => {
@@ -14,7 +14,7 @@ const Landing = () => {
                     <Container className='header-text text-center'>
                         <Image src={pic} className='main-pic'/>
                         <h1 className='name'><strong>Duc-Hoang Do</strong></h1>
-                        <h5 className='title'><strong>Frontend Web Developer</strong></h5>
+                        <h5 className='title'><strong>Front End Developer</strong></h5>
                         <p className='text'>
                             <Typical
                                 loop={Infinity}
