@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/DucHoangDo/static/css/main.3f0490e7.chunk.css",
-    "main.js": "/DucHoangDo/static/js/main.147a4f8c.chunk.js",
-    "main.js.map": "/DucHoangDo/static/js/main.147a4f8c.chunk.js.map",
+    "main.js": "/DucHoangDo/static/js/main.98999e89.chunk.js",
+    "main.js.map": "/DucHoangDo/static/js/main.98999e89.chunk.js.map",
     "runtime-main.js": "/DucHoangDo/static/js/runtime-main.ff8a4835.js",
     "runtime-main.js.map": "/DucHoangDo/static/js/runtime-main.ff8a4835.js.map",
     "static/css/2.1a02f21c.chunk.css": "/DucHoangDo/static/css/2.1a02f21c.chunk.css",
@@ -20,7 +20,7 @@
     "static/media/BIY-4.d37484ac.png": "/DucHoangDo/static/media/BIY-4.d37484ac.png",
     "static/media/BIY-5.d77fca72.png": "/DucHoangDo/static/media/BIY-5.d77fca72.png",
     "static/media/BIY-6.0fcac29a.png": "/DucHoangDo/static/media/BIY-6.0fcac29a.png",
-    "static/media/me-2.d7529c05.jpg": "/DucHoangDo/static/media/me-2.d7529c05.jpg",
+    "static/media/me-3.50f87848.jpg": "/DucHoangDo/static/media/me-3.50f87848.jpg",
     "static/media/rinqydink1.e3874e46.png": "/DucHoangDo/static/media/rinqydink1.e3874e46.png",
     "static/media/rinqydink2.bf452f4e.png": "/DucHoangDo/static/media/rinqydink2.bf452f4e.png",
     "static/media/rinqydink3.9be83547.png": "/DucHoangDo/static/media/rinqydink3.9be83547.png",
@@ -38,6 +38,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.a03e3ac5.chunk.js",
     "static/css/main.3f0490e7.chunk.css",
-    "static/js/main.147a4f8c.chunk.js"
+    "static/js/main.98999e89.chunk.js"
   ]
 }
