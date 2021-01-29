@@ -27,7 +27,6 @@ const ContactMe = () => {
                             </Container>
                         </Container>
                     </Container>
-                    <p className='contact-text text-center mt-5'>Get in touch via email or schedule a<Button className='talk-btn shadow-none' variant='link' href='https://calendly.com/duchoang' target='_blank'><p className='talk-btn-text'>consultation</p></Button></p>
                 </FadeIn>
             </Jumbotron>
         </React.Fragment>
