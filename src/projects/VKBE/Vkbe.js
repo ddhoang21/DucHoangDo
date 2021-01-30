@@ -24,12 +24,17 @@ const Vkbe = () => {
                     <Container className='vkbe-project-container mt-4'>
                         <Container className='text-center'>
                             <Image src={vkbeLogo} className='vkbe-project-logo'/>
-                            <h1 className='vkbe-project-title mt-4'>VKBE Consulting</h1>
-                            <p className='vkbe-project-subtitle mt-4'>A single-page application for a technology consulting firm specialized in delivering cloud solutions</p>
+                            <p className='vkbe-project-subtitle mt-4'>A technology consulting firm specialized in delivering cloud solutions</p>
+                            <Button className='back-btn shadow-none' variant='link' href='http://vkbeconsulting.com/' target='_blank'><p className='back-btn-text'><strong>Visit website</strong></p></Button>
                         </Container>
                     </Container>
                 </Jumbotron>
                 <Container>
+                    <Jumbotron className='gallery-jumbotron'>
+                        <p className='vkbe-text'>This project marked a milestone in my personal career as it is the first one I've made as a freelancer.</p>
+                        <p className='vkbe-text'>I'm proud of this achievement because I was able to incorporate all functionalities and features required by the client.</p>
+                        <p className='vkbe-text'>While working on this project, I've gained more knowledge on how to enhance user experience which gave me a better understanding of industry standards.</p>
+                    </Jumbotron>
                     <Jumbotron className='gallery-jumbotron'>
                         <Image src={vkbe1} className='gallery' />
                     </Jumbotron>

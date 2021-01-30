@@ -22,14 +22,14 @@
     height: 100px;
 }
 
-.vkbe-project-title {
-    color: #F5F5F5;
-    font-size: 50px;
-}
-
 .vkbe-project-subtitle {
     color: #F5F5F5;
     font-size: 25px;
+}
+
+.vkbe-text {
+    color: #F5F5F5;
+    font-size: 23px;
 }
 
 .gallery-title {
@@ -72,6 +72,10 @@
         font-size: 22px;
     }
 
+    .vkbe-text {
+        font-size: 20px;
+    }
+
     .back-btn-text {
         font-size: 22px;
     }
@@ -91,6 +95,10 @@
 
     .vkbe-project-subtitle {
         font-size: 19px;
+    }
+
+    .vkbe-text {
+        font-size: 17px;
     }
 
     .back-btn-text {
@@ -114,6 +122,10 @@
         font-size: 17px;
     }
 
+    .vkbe-text {
+        font-size: 15px;
+    }
+
     .back-btn-text {
         font-size: 17px;
     }
@@ -135,6 +147,10 @@
         font-size: 15px;
     }
 
+    .vkbe-text {
+        font-size: 13px;
+    }
+
     .back-btn-text {
         font-size: 15px;
     }
@@ -154,6 +170,10 @@
 
     .vkbe-project-subtitle {
         font-size: 13px;
+    }
+
+    .vkbe-text {
+        font-size: 11px;
     }
 
     .back-btn-text {

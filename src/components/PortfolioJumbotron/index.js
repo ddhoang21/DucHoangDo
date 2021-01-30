@@ -30,7 +30,6 @@ const Projects = () => {
                             <FontAwesomeIcon icon={faReact} size='4x' className='react-icon' />
                             <FontAwesomeIcon icon={faBootstrap} size='4x' className='bootstrap-icon' />
                         </Container>
-                        <p className='portfolio-subtitle text-center mt-5'>More projects coming soon...</p>
                     </Container>
                 </Jumbotron>
                 <Jumbotron fluid className='vkbe-jumbotron mb-0'>
