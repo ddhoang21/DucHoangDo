@@ -27,15 +27,14 @@
     font-size: 25px;
 }
 
-.vkbe-text {
+.project-text {
     color: #F5F5F5;
     font-size: 23px;
 }
 
-.gallery-title {
-    color: #F5F5F5;
-    font-size: 55px;
-    font-weight: 700;
+.project-title {
+    color: #FFC000;
+    font-size: 25px;
 }
 
 .gallery-jumbotron {
@@ -72,11 +71,11 @@
         font-size: 22px;
     }
 
-    .vkbe-text {
+    .project-text {
         font-size: 20px;
     }
 
-    .back-btn-text {
+    .back-btn-text, .project-title {
         font-size: 22px;
     }
 
@@ -97,11 +96,11 @@
         font-size: 19px;
     }
 
-    .vkbe-text {
+    .project-text {
         font-size: 17px;
     }
 
-    .back-btn-text {
+    .back-btn-text, .project-title {
         font-size: 19px;
     }
 
@@ -122,11 +121,11 @@
         font-size: 17px;
     }
 
-    .vkbe-text {
+    .project-text {
         font-size: 15px;
     }
 
-    .back-btn-text {
+    .back-btn-text, .project-title {
         font-size: 17px;
     }
 
@@ -147,11 +146,11 @@
         font-size: 15px;
     }
 
-    .vkbe-text {
+    .project-text {
         font-size: 13px;
     }
 
-    .back-btn-text {
+    .back-btn-text, .project-title {
         font-size: 15px;
     }
 
@@ -172,11 +171,11 @@
         font-size: 13px;
     }
 
-    .vkbe-text {
+    .project-text {
         font-size: 11px;
     }
 
-    .back-btn-text {
+    .back-btn-text, .project-title {
         font-size: 13px;
     }
 

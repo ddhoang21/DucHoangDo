@@ -36,18 +36,21 @@ const Projects = () => {
                     <Container className='text-center'>
                         <Image src={vkbeLogo} className='vkbe-logo' />
                         <Button as={Link} className='vkbe-btn shadow-none mt-3' variant='link' to='/portfolio/vkbe'><Image src={vkbe1} className='vkbe-pic1'/></Button>
+                        <Button as={Link} className='portfolio-btn shadow-none' variant='link' to='/portfolio/vkbe'><p className='portfolio-btn-text'><strong>More info {">"}</strong></p></Button>
                     </Container>
                 </Jumbotron>
                 <Jumbotron fluid className='BIY-jumbotron mb-0'>
                     <Container className='text-center'>
                         <h1 className='BIY-title'>Book-It-Yourself</h1>
                         <Button as ={Link} className='vkbe-btn shadow-none mt-3' variant='link' to='/portfolio/bookityourself'><Image src={BIY1} className='vkbe-pic1'/></Button>
+                        <Button as={Link} className='portfolio-btn shadow-none' variant='link' to='/portfolio/bookityourself'><p className='portfolio-btn-text'><strong>More info {">"}</strong></p></Button>
                     </Container>
                 </Jumbotron>
                 <Jumbotron fluid className='rinqydink-jumbotron mb-0'>
                     <Container className='text-center'>
                         <h1 className='rinqydink-title'>Rinqydink</h1>
                         <Button as ={Link} className='vkbe-btn shadow-none mt-3' variant='link' to='/portfolio/rinqydink'><Image src={rinqydink} className='vkbe-pic1'/></Button>
+                        <Button as={Link} className='portfolio-btn shadow-none' variant='link' to='/portfolio/rinqydink'><p className='portfolio-btn-text'><strong>More info {">"}</strong></p></Button>
                     </Container>
                 </Jumbotron>
             </FadeIn>

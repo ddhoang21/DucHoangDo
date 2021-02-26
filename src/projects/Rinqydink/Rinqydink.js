@@ -26,15 +26,25 @@ const Rinqydink = () => {
                             <Container className='text-center'>
                                 <h1 className='rinqydink-project-title mt-4'>Rinqydink Arcade</h1>
                                 <p className='rinqydink-project-subtitle mt-4'>An online gaming web app letting users compete and interact with each other</p>
-                                <Button className='back-btn shadow-none' variant='link' href='https://rinqydinky.herokuapp.com/' target='_blank'><p className='back-btn-text'><strong>Visit website</strong></p></Button>
+                                <Button className='back-btn shadow-none' variant='link' href='https://rinqydinky.herokuapp.com/' target='_blank'><p className='back-btn-text'><strong><u>Visit website</u></strong></p></Button>
                             </Container>
                         </Container>
                 </Jumbotron>
                 <Container>
                     <Jumbotron className='gallery-jumbotron'>
-                        <p className='vkbe-text'>This project is significant to me because it ignited my passion for front end development. I realized that it was a career I wanted to pursue.</p>
-                        <p className='vkbe-text'>I was responsible for the website's interface and understood how critical the users' experience is when designing an application.</p>
-                        <p className='vkbe-text'>I was also in charge of the users' authentication which is where I struggled the most but also acknowledged the importance of security and protection of users' credentials.</p>
+                        <p className='project-title'><strong>About</strong></p>
+                            <p className='project-text'>This project is significant to me because it ignited my passion for front end development. I realized that it was a career I wanted to pursue.</p>
+                            <p className='project-text'>I was responsible for the website's interface and understood how critical the users' experience is when designing an application.</p>
+                            <p className='project-text'>I was also in charge of the users' authentication which is where I struggled the most but also acknowledged the importance of security and protection of users' credentials.</p>
+
+                        <p className='project-title mt-5'><strong>Technologies</strong></p>
+                            <ul>
+                                <li className='project-text'>Project written in JavaScript and built with Node.js and Express</li>
+                                <li className='project-text'>Implemented intuitive user experience with Materialize</li>
+                                <li className='project-text'>Enabled user authentication with Passport.js</li>
+                                <li className='project-text'>Enforced password protection with Bcrypt.js</li>
+                                <li className='project-text'>Applied nodemailer for form submission</li>
+                            </ul>
                     </Jumbotron>
                     <Jumbotron className='gallery-jumbotron'>
                         <Image src={rinqydink1} className='gallery' />

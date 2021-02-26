@@ -14,7 +14,7 @@ const Landing = () => {
                     <Container className='header-text text-center'>
                         <Image src={pic} className='main-pic'/>
                         <h1 className='name'><strong>Duc-Hoang Do</strong></h1>
-                        <h5 className='title'><strong>Front End Developer</strong></h5>
+                        <h5 className='title'><strong>Jr. Front End Developer</strong></h5>
                         <p className='text'>
                             <Typical
                                 loop={Infinity}
@@ -22,7 +22,6 @@ const Landing = () => {
                                     "I'm a coffee lover", 2000,
                                     "I'm a soccer fan", 2000,
                                     "I'm a music enthusiast", 2000,
-                                    "I'm a Rocket League novice", 2000,
                                     "I'm an explorer", 2000
                                 ]}
                             />

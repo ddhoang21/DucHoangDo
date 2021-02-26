@@ -25,15 +25,24 @@ const Vkbe = () => {
                         <Container className='text-center'>
                             <Image src={vkbeLogo} className='vkbe-project-logo'/>
                             <p className='vkbe-project-subtitle mt-4'>A technology consulting firm specialized in delivering cloud solutions</p>
-                            <Button className='back-btn shadow-none' variant='link' href='http://vkbeconsulting.com/' target='_blank'><p className='back-btn-text'><strong>Visit website</strong></p></Button>
+                            <Button className='back-btn shadow-none' variant='link' href='http://vkbeconsulting.com/' target='_blank'><p className='back-btn-text'><strong><u>Visit website</u></strong></p></Button>
                         </Container>
                     </Container>
                 </Jumbotron>
                 <Container>
                     <Jumbotron className='gallery-jumbotron'>
-                        <p className='vkbe-text'>This project marked a milestone in my personal career as it is the first one I've made as a freelancer.</p>
-                        <p className='vkbe-text'>I'm proud of this achievement because I was able to incorporate all functionalities and features required by the client.</p>
-                        <p className='vkbe-text'>While working on this project, I've gained more knowledge on how to enhance user experience which gave me a better understanding of industry standards.</p>
+                        <p className='project-title'><strong>About</strong></p>
+                            <p className='project-text'>This project marked a milestone in my career as it is the first one that was fully created by me and published by a company.</p>
+                        <p className='project-text'>I'm proud of this achievement because I was able to incorporate all functionalities and features required by the client.</p>
+                        <p className='project-text'>While working on this project, I've gained more knowledge on how to enhance user experience which gave me a better understanding of industry standards.</p>
+                        
+                        <p className='project-title mt-5'><strong>Technologies</strong></p>
+                            <ul>
+                                <li className='project-text'>Built and designed with React-Bootstrap</li>
+                                <li className='project-text'>Responsive on all devices using media queries</li>
+                                <li className='project-text'>Implemented darkmode with React Hooks</li>
+                                <li className='project-text'>Enabled smooth scrolling</li>
+                            </ul>
                     </Jumbotron>
                     <Jumbotron className='gallery-jumbotron'>
                         <Image src={vkbe1} className='gallery' />

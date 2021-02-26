@@ -26,10 +26,25 @@ const BookItYourself = () => {
                         <Container className='text-center'>
                             <h1 className='BIY-project-title mt-4'>Book-It-Yourself</h1>
                             <p className='BIY-project-subtitle mt-4'>A social networking site that lets artists and promoters connect with each other across the globe</p>
+                            <Button className='back-btn shadow-none' variant='link' href='https://book-it-yourself.herokuapp.com/' target='_blank'><p className='back-btn-text'><strong><u>Visit website</u></strong></p></Button>
                         </Container>
                     </Container>
                 </Jumbotron>
                 <Container>
+                    <Jumbotron className='gallery-jumbotron'>
+                        <p className='project-title'><strong>About</strong></p>
+                            <p className='project-text'>This was our final group project during Bootcamp. It was a challenging period because it was the beginning of Covid.</p>
+                            <p className='project-text'>I'm proud of this project because although we weren't prepared to work virtually, we still managed to finish the work on time.</p>
+                            <p className='project-text'>This experience improved my efficiency working as part of a team but also taught me to manage my time better and prioritize more important tasks.</p>
+
+                        <p className='project-title mt-5'><strong>Technologies</strong></p>
+                            <ul>
+                                <li className='project-text'>Build with MongoDB, Express, React and Node.js</li>
+                                <li className='project-text'>Responsive progressive web app designed with React-Bootstrap</li>
+                                <li className='project-text'>Enabled user authentication with Passport.js</li>
+                                <li className='project-text'>Applied offline functionality using localForage</li>
+                            </ul>
+                    </Jumbotron>
                     <Jumbotron className='gallery-jumbotron'>
                         <Image src={BIY1} className='gallery' />
                     </Jumbotron>
