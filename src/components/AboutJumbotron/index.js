@@ -17,9 +17,9 @@ const Intro = () => {
                     <FadeIn delay={300} transitionDuration={1000}>
                         <Container>
                             <p className='about-text'>Originally from Belgium, I've lived in Seattle for the past decade where it has now become my home.</p>
-                            <p className='about-text'>After spending four years in the tech industry as a consultant, I've decided to change my career and attended a Bootcamp which ignited my passion for front end development.</p>
-                            <p className='about-text'>Since then, I've continuously worked on projects to acquire more skills and knowledge in the field. My motivation and dedication is what strives me towards building elegant applications for users.</p>
-                            <p className='about-text'>I primarily have expertise in Javascript, specifically React but I'm also proficient in React-Native for iOS/Android mobile applications.</p>   
+                            <p className='about-text'>After spending four years in the tech industry, I've decided to change my career and attended a Bootcamp which ignited my passion for front end development.</p>
+                            <p className='about-text'>Since then, I've continuously worked on developing my skills and gaining knowledge in the field. My motivation and dedication is what strives me towards building elegant applications.</p>
+                            <p className='about-text'>I primarily have expertise in React.js but I'm also proficient in React-Native for iOS/Android mobile applications.</p>   
                         </Container>
                         <br></br>
                     <Button as={Link} className='portfolio-btn shadow-none' variant='link' to='/portfolio'><p className='portfolio-btn-text'><strong>Check out my projects {">"}</strong></p></Button>
